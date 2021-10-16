@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "dizzle"
-version = "0.2.0"
+version = "0.2.1"
 description = "Tools to normalize and interact with data of various formats."
 authors = ["4thel00z <4thel00z@gmail.com>"]
 license = "GPL-3"
