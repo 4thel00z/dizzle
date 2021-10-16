@@ -53,7 +53,7 @@ def geocode_json(
         for entry in obj:
             street = " ".join(
                 (
-                    includes_fn.get(val, identity)(entry.get(val))
+                    str(includes_fn.get(val, identity)(entry.get(val)))
                     for val in include
                     if val in entry
                 )
